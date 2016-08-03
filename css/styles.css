@@ -498,7 +498,7 @@ MEDIA QUERIES 1024px
   #gallery li {
         display: inline-block; 
         width: 33%;
-		min-height: 370px;
+		min-height: 410px;
         float: left;
         margin: 0 auto;
   }
