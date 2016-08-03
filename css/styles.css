@@ -154,9 +154,9 @@ ul {
   margin-right: -50%;
   transform: translate(-50%, -50%);
   font-family: 'Judson', serif;
-  font-size: 2.25em;
+  font-size: 1.60em;
   font-weight: bold;
-  line-height: 2em;
+  line-height: 2.1em;
   color: #ff5c33;
   text-shadow: 0 2px 2px black;
 }
@@ -371,6 +371,14 @@ MEDIA QUERIES 738px
 
 
 /* -------------------------------------Quote Styles-------------------------------------*/
+
+  #quote h1 {
+    font-size: 2.25em;
+    font-weight: bold;
+    line-height: 2.75em;
+    color: #ff5c33;
+    text-shadow: 0 2px 2px black;
+  }
 
   #quote p {
     color: white;
