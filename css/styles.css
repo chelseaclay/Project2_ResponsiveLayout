@@ -25,6 +25,11 @@ h2 {
   margin-bottom: 40px;
 }
 
+ul {
+  list-style-positon: inside;
+  padding-left: 0;
+}
+
 /* -------------------------------------Nav Styles-------------------------------------*/
 
 #main-nav {
@@ -377,16 +382,9 @@ MEDIA QUERIES 738px
   #gallery li {
         display: inline-block; 
         width: 50%;
+		min-height: 420px;
         float: left;
         margin: 0 auto;
-  }
-  
-  #gallery li:nth-child(even) {
-    clear: right;
-  }
-  
-  #gallery li:nth-child(odd) {
-    clear: left;
   }
 
 /* -------------------------------------Contact Styles-------------------------------------*/
@@ -500,20 +498,9 @@ MEDIA QUERIES 1024px
   #gallery li {
         display: inline-block; 
         width: 33%;
+		min-height: 370px;
         float: left;
         margin: 0 auto;
-  }
-
-  #gallery li:nth-child(even) {
-    clear: none;
-  }
-  
-  #gallery li:nth-child(odd) {
-    clear: none;
-  }
-
-  #gallery li:nth-child(7n) {
-    clear: left;
   }
 
 /* -------------------------------------Contact Styles-------------------------------------*/
