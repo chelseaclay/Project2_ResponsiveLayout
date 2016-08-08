@@ -451,8 +451,7 @@ MEDIA QUERIES 1024px
 
 /* -------------------------------------Nav Styles-------------------------------------*/
 
-  #nav {
-    background-color: blue;
+  nav {
     margin: 0 auto;
     width: 90%;
     max-width: 1600px;
